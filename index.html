@@ -4,289 +4,341 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
-    <script src="https://kit.fontawesome.com/6a72398619.js" crossorigin="anonymous"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <div id="logo">
-                <a href="#">
-                    Aung Bhone Myat
-                </a>
-            </div>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Aung Bhone Myat
+            </a>
+            
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
 
-            <nav class="navbar">
-                <a href="#">About Me</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#projects">Projects</a>
-            </nav>
-        </div>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
 
-        <section class="hero-section">
-            <div class="hero-left">
-                <div class="hero-content">
-                    <p>Welcome To My Porfolio</p>
-                    <h1>Hi, I'm <span>Aung Bhone Myat</span></h1>
-                    
-                    <p>I specialize in backend development using <span>PHP & Laravel</span></p>
-                </div>
-                <div class="cta-buttons">
-                    <a href="#" class="link-btn btn-primary">View My Work</a>
-                    <a href="#" class="link-btn btn-secondary">Download CV</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="img/profile.png" alt="profile">
-            </div>
-        </section>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
 
-        <!-- Skill Page -->
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
 
-        <section class="skills-section" id="skills">
-            <div class="container">
-                <h2 class="section-title">My Technical Stack</h2>
-                <p class="section-subtitle">
-                    Proficient in modern backend development and essential frontend technologies.
-                </p>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3>Backend & Frameworks</h3>
-                        <div class="skill-list">
-                            <div class="skill-card">
-                                <i class="fa-brands fa-php"></i>
-                                <span class="skill-name">PHP</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-laravel"></i>
-                                <span class="skill-name">Laravel</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-php"></i>
-                                <span class="skill-name">Restful APIS</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-solid fa-database"></i>
-                                <span class="skill-name">MySQL / SQL</span>
-                            </div>
-                        </div>
-                    </div>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
 
-                    <div class="skill-category">
-                        <h3>Frontend & Design</h3>
-                        <div class="skill-list">
-                            <div class="skill-card">
-                                <i class="fa-brands fa-php"></i>
-                                <span class="skill-name">HTML5</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-laravel"></i>
-                                <span class="skill-name">CSS3</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-php"></i>
-                                <span class="skill-name">JavaScript(ES6+)</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-solid fa-database"></i>
-                                <span class="skill-name">Bootstrap</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-solid fa-database"></i>
-                                <span class="skill-name">Responsive Design</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3>Databases & Data Management</h3>
-                        <div class="skill-list">
-                            <div class="skill-card">
-                                <i class="fa-brands fa-php"></i>
-                                <span class="skill-name">PHP</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-laravel"></i>
-                                <span class="skill-name">Laravel</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-php"></i>
-                                <span class="skill-name">Restful APIS</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-solid fa-database"></i>
-                                <span class="skill-name">MySQL / SQL</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3>Tool & Development Process</h3>
-                        <div class="skill-list">
-                            <div class="skill-card">
-                                <i class="fa-brands fa-php"></i>
-                                <span class="skill-name">PHP</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-laravel"></i>
-                                <span class="skill-name">Laravel</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-brands fa-php"></i>
-                                <span class="skill-name">Restful APIS</span>
-                            </div>
-                            <div class="skill-card">
-                                <i class="fa-solid fa-database"></i>
-                                <span class="skill-name">MySQL / SQL</span>
-                            </div>
-                        </div>
-                    </div>
+                <div id="nav-close" class="nav__close">
+                    <i class="ri-close-line"></i>
                 </div>
             </div>
-        </section>
 
-        <section id="projects" class="projects-section">
-            <div class="container">
-                <h2 class="section-title">Featured Projects</h2>
-                <p class="section-subtitle">A showcase of my full-stack development skills using Laravels and modern frontend tools.</p>
-                <div class="project-grid">
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/e-commerce.jpg" alt="E-commerce Platform Project"
-                                loading="lazy">
-                        </div>
-                        <div class="project-content">
-                            <h3>Laravel E-commerce Platform</h3>
-                            <p class="project-description">
-                                Implemented a secure, full-featured e-commerce system with user authentication, project
-                                management, and da dedictied admin dashboard.
-                            </p>
-                        </div>
-                        <div class="tech-stack">
-                            <span class="tech-badge">Laravek 10</span>
-                            <span class="tech-badge">Vue.js</span>
-                            <span class="tech-badge">MySQL</span>
-                            <span class="tech-badge">Bootstrap</span>
-                        </div>
-                        <div class="tech-links">
-                            <a href="#" class="link-btn btn-primary">Live Demo</a>
-                            <a href="#" class="link-btn btn-secondary">GitHub Repo</a>
-                        </div>
-                    </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>  
+        </nav>   
+    </header>
 
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/project-taskmanager.jpg" alt="E-commerce Platform Project"
-                                loading="lazy">
-                        </div>
-                        <div class="project-content">
-                            <h3>Advanded Task Manager System</h3>
-                            <p class="project-description">
-                                Designed an internal task management application focusing on user roles, project prioritization, and clean, intuitive UI/UX.
-                            </p>
-                        </div>
-                        <div class="tech-stack">
-                            <span class="tech-badge">PHP</span>
-                            <span class="tech-badge">JavaScript</span>
-                            <span class="tech-badge">Bootstrap</span>
-                            <span class="tech-badge">SQLite</span>
-                        </div>
-                        <div class="tech-links">
-                            <a href="#" class="link-btn btn-primary">Live Demo</a>
-                            <a href="#" class="link-btn btn-secondary">GitHub Repo</a>
-                        </div>
-                    </div>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle">
+                            Hello, <span>I'm</span>
+                        </h3>
 
+                        <h1 class="home__title">
+                            Aung Bhone Myat
+                        </h1>
 
-                    <div class="project-card">
-                        <div class="project-image">
-                            <img src="img/personal-portfolio.jpg" alt="Personal Portfolio - Website"
-                                loading="lazy">
-                        </div>
-                        <div class="project-content">
-                            <h3>Personal Portfolio</h3>
-                            <p class="project-description">
-                                Built from scratch using sematic HTML and modern CSS, emphasizing responsiveness and a professonal dark mode aesthethic.
-                            </p>
-                        </div>
-                        <div class="tech-stack">
-                            <span class="tech-badge">HTML5</span>
-                            <span class="tech-badge">CSS</span>
-                            <span class="tech-badge">JavaScript</span>
-                            <span class="tech-badge">Bootstrap</span>
-                        </div>
-                        <div class="tech-links">
-                            <a href="#" class="link-btn btn-primary">Live Demo</a>
-                            <a href="#" class="link-btn btn-secondary">GitHub Repo</a>
-                        </div>
-                    </div>
+                        <h3 class="home__education">
+                            Front-end Developer
+                        </h3>
 
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Page -->
-         <section id="contacts" class="contact-section section-padding">
-            <div class="container">
-                <h2 class="section-title">Contact Me</h2>
-                <p class="section-subtitle">let's code together</p>
-                <div class="contact-grid">
-                    <div class="info-container">
-                        <h3>Let's Build Something Great Together.</h3>
-                        <p>
-                            I'm always open to discusing new project ideas, collaboration opportunities, or full-time roles.
-                            Feel free to reach out using any of the methods below, an I'll respond ASAP.
+                        <p class="home__description">
+                            With knownledge in web development and design,
+                            I offer the best projects result
+                            in quality work.
                         </p>
-                        <div class="direct-contact">
-                            <div class="contact-item">
-                                <i class="fa-solid fa-envelope"></i>
-                                <a href="#">
-                                    aungbhonemyat@gmail.com
-                                </a>
-                            </div>
-                            <div class="contact-item">
-                                <i class="fa-solid fa-location-crosshairs"></i>
-                                Yangon, Myanmar
-                            </div>
-                            <div class="social-links">
-                                <a href="#">
-                                    <i class="fa-brands fa-linkedin"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                                <a href="#">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
-                            </div>
-                        </div>
+
+                        <a href="#contact" class="button">Let's Talk</a>
                     </div>
 
-                    <div class="form-container">
-                        <form action="" id="contact-form" method="POST">
-                            <div class="form-group">
-                                <input type="text" name="name" id="name" placeholder="Your Name..." required>
-                            </div>
-                            <div class="form-group">
-                                <input type="email" name="email" id="email" placeholder="Your Email..." required>
-                            </div>
-                            <div class="form-group">
-                                <input type="text" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
-                            <button type="submit" class="btn btn-submit">Send Message</button>
-                        </form>
-                    </div> 
+                    <div class="home__social">
+                        <a href="#" target="_blank" class="home__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-circle-fill"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="home__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__image">
+                    <img class="home__img" src="img/profile.png" alt="">
                 </div>
             </div>
-         </section>
+        </section>
 
-         <footer>
-            <p>&copy; 2025 Aung Bhone Myat. Developed with Laravel & Passion.</p>
-         </footer>
-    </div>
-    
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h3 class="section__subtitle">
+                        My <span>Intro</span>
+                    </h3>
+                    <h2 class="section__title">
+                        About Me
+                    </h2>
+                    <p class="about__description">
+                        Frontend developer, I create web pages with
+                        UI/UX user interface, I have years of exprience
+                        and many clients are happy with the projects carried out.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+
+                <div class="about__image">
+                    <svg class="about_blob" viewBox="0 0 550 592" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBorder" mask-type="alpha">
+                            <path d="M263 48.1782C270.426 43.891 279.574 43.891 287 48.1782L501.157 
+                            171.822C508.583 176.109 513.157 184.032 513.157 192.606V439.894C513.157 
+                            448.468 508.583 456.391 501.157 460.678L287 584.322C279.574 588.609 
+                            270.426 588.609 263 584.322L48.843 460.678C41.4174 456.391 36.843 448.468 36.843 
+                            439.894V192.606C36.843 184.032 41.4174 176.109 48.843 171.822L263 48.1782Z" fill="black"/>
+                        </mask>
+                        <g mask="url(#maskBorder)">
+                            <rect x="37" width="476" height="630" fill="url(#pattern2)"/>
+                            
+                            <path d="M285 51.6423L499.157 175.286C505.345 178.859 509.157 185.461 509.157 
+                            192.606V439.894C509.157 447.039 505.345 453.641 499.157 457.214L285 
+                            580.858C278.812 584.43 271.188 584.43 265 580.858L50.843 457.214C44.655 453.641 
+                            40.843 447.039 40.843 439.894V192.606C40.843 185.461 44.655 178.859 50.843 
+                            175.286L265 51.6423C271.188 48.0697 278.812 48.0696 285 51.6423Z" stroke="black" stroke-width="10"/>
+                        </g>
+
+                        <rect x="37" width="476" height="300" fill="url(#pattern3)"/>
+
+                        <defs>
+                            <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                            </pattern>
+
+                            <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBorder" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+                            </pattern>
+
+                            <!-- Insert your profile (recommended size: 640 x 940) -->
+                            <image class="about__img" id="imageBorder" width="640" height="940" href="img/profile.png"/>
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section">
+            <div class="skills__container container grid">
+                <div class="skills__data">
+                    <h3 class="section__subtitle">
+                        Favorite <span>Skills</span>
+                    </h3>
+                    <h2 class="section__title">
+                        My Skills
+                    </h2>
+                    <p class="skills_description">
+                        See fully what skills I have and preform, I
+                        to develop the projects for you.
+                    </p>
+
+                    <a href="#projects" class="button">See Projects</a>
+                </div>
+
+                <div class="skills__content">
+                    <ol class="skills__group">
+                        <li class="skills__item">HTML & CSS</li>
+                        <li class="skills__item">JavaScript</li>
+                        <li class="skills__item">Bootstrap</li>
+                        <li class="skills__item">React</li>
+                    </ol>
+
+                    <ol class="skills__group" start="5">
+                        <li class="skills__item">Git & Github</li>
+                        <li class="skills__item">Figma</li>
+                        <li class="skills__item">Sketch</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <h3 class="section__subtitle">
+                My <span>Services</span>
+            </h3>
+            <h2 class="section__title">
+                What I Do
+            </h2>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-layout-3-line services_icon"></i>
+
+                    <h2 class="services__title">
+                        Web Developer
+                    </h2>
+
+                    <p class="services__description">
+                        Development of custom web pages. 
+                        Using current technologies and 
+                        libraries of the labor field.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pantone-line services_icon"></i>
+
+                    <h2 class="services__title">
+                        UI/UX Designer
+                    </h2>
+
+                    <p class="services__description">
+                        I offer design of web interfaces and 
+                        mobile applications, design made in 
+                        figma, adobe xd and sketch.
+                    </p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pen-nib-line services_icon"></i>
+
+                    <h2 class="services__title">
+                        Graphic Design
+                    </h2>
+
+                    <p class="services__description">
+                        I make designs at the client's request, 
+                        banner design, posters, digital 
+                        designs among others.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects -->
+
+        <section class="projects section" id="projects">
+            <h3 class="section__subtitle">
+                My <span>Jobs</span>
+            </h3>
+
+            <h2 class="section__title">
+                Recent Projects
+            </h2>
+
+            <div class="projects__container container grid">
+                <article class="projects__card">
+                    <img src="img/project-img-1.jpg" alt="projects" class="projects__img">
+
+                    <div class="projects__model">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="img/project-img-2.jpg" alt="projects" class="projects__img">
+
+                    <div class="projects__model">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="img/project-img-3.jpg" alt="projects" class="projects__img">
+
+                    <div class="projects__model">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="img/project-img-4.jpg" alt="projects" class="projects__img">
+
+                    <div class="projects__model">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="img/project-img-5.jpg" alt="projects" class="projects__img">
+
+                    <div class="projects__model">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="img/project-img-6.jpg" alt="projects" class="projects__img">
+
+                    <div class="projects__model">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern website</h2>
+
+                        <a href="#" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
     
     <script src="script.js"></script>
 </body>
